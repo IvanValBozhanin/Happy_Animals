@@ -10,18 +10,15 @@ public class Main {
     public static ArrayList<Animal> animals = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {
-
         /**
          * For first start of the file
          */
-
         first();
 
         /**
         *For every consecutive start of the file
         */
 //         consecutive();
-
     }
 
     public static void first() throws IOException {
