@@ -14,34 +14,40 @@ public class Main {
         /**
          * For first start of the file
          */
-        {
-            initialize();
 
-            showAll();
+        first();
 
-            add();
-            add();
-
-            showAll();
-
-            edit();
-
-            showAll();
-
-            backUp();
-        }
-
-        /*
-        For every consecutive start of the file
-        {
-            restoreFromBackUp();
-            showAll();
-            add();
-            showAll();
-            edit();
-            backUp();
-        }
+        /**
+        *For every consecutive start of the file
         */
+//         consecutive();
+
+    }
+
+    public static void first() throws IOException {
+        initialize();
+
+        showAll();
+
+        add();
+        add();
+
+        showAll();
+
+        edit();
+
+        showAll();
+
+        backUp();
+    }
+
+    public static void consecutive() throws IOException {
+        restoreFromBackUp();
+        showAll();
+        add();
+        showAll();
+        edit();
+        backUp();
     }
 
     public static void restoreFromBackUp() throws IOException{
