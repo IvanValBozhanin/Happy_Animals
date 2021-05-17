@@ -23,6 +23,10 @@ public class Animal implements Serializable {
         this.food = food;
     }
 
+    public static void setCurrentId(int currentId) {
+        Animal.currentId = currentId;
+    }
+
     public int getId() {
         return id;
     }
